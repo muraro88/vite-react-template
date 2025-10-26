@@ -72,7 +72,7 @@ function App() {
       {/* 3. BOTÃO DE WHATSAPP */}
       <a
         // IMPORTANTE: Troque o número abaixo!
-        href="[https://wa.me/55849XXXXXXXX](https://wa.me/55849XXXXXXXX)"
+        href="https://wa.me/5584998999999"
         target="_blank"
         rel="noopener noreferrer"
         style={buttonStyle}
@@ -85,7 +85,7 @@ function App() {
 
       {/* BÔNUS: Você pode adicionar mais links aqui, como o Instagram */}
       <a 
-        href="[https://www.instagram.com/clinicaslimmedicine/](https://www.instagram.com/clinicaslimmedicine/)" 
+        href="https://www.instagram.com/clinicaslimmedicine/" 
         target="_blank" 
         rel="noopener noreferrer" 
         style={instagramLinkStyle}
