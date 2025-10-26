@@ -1,7 +1,7 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-//import viteLogo from '/vite.svg'
+// Este 'import' carrega o CSS básico. Pode deixar.
 import './App.css'
+// Adicionamos a importação de 'CSSProperties' para corrigir o erro de tipo
+import { CSSProperties } from 'react'
 
 function App() {
   // Estilos CSS embutidos (JavaScript objects)
@@ -45,6 +45,5 @@ function App() {
     </div>
   )
 }
+
 export default App
-
-
