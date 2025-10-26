@@ -32,7 +32,7 @@ function App() {
 
   // Estilo para o nosso botão de WhatsApp
   const buttonStyle: CSSProperties = {
-    backgroundColor: '#25D366', // Cor oficial do WhatsApp
+    backgroundColor: '#128C7E', // Um verde mais escuro e calmo
     color: '#FFFFFF', // Texto branco
     padding: '15px 30px',
     fontSize: '1.1rem',
@@ -59,7 +59,7 @@ function App() {
   return (
     <div style={pageStyle}>
       {/* 1. O LOGO */}
-      {/* Certifique-se que 'src' é o nome exato do arquivo na pasta 'public' */}
+      {/* O nome do arquivo .jpg deve ser exato */}
       <img 
         src="/logo-slim-medicine.jpg" 
         alt="Logo Clínica Slim Medicine" 
@@ -73,7 +73,7 @@ function App() {
 
       {/* 3. BOTÃO DE WHATSAPP */}
       <a
-        // IMPORTANTE: Troque o número abaixo!
+        // Número de WhatsApp atualizado
         href="https://wa.me/5584998999999"
         target="_blank"
         rel="noopener noreferrer"
@@ -89,7 +89,7 @@ function App() {
         <span>Agendar Consulta pelo WhatsApp</span>
       </a>
 
-      {/* BÔNUS: Você pode adicionar mais links aqui, como o Instagram */}
+      {/* BÔNUS: Link do Instagram (corrigido) */}
       <a 
         href="https://www.instagram.com/clinicaslimmedicine/" 
         target="_blank" 
