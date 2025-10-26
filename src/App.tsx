@@ -4,27 +4,45 @@
 import './App.css'
 
 function App() {
+  // Estilos CSS embutidos (JavaScript objects)
+  // Usamos a paleta de cores do perfil: preto, branco e cinzas.
+  const pageStyle = {
+    backgroundColor: '#FFFFFF', // Fundo branco, como o perfil
+    color: '#333333', // Cor de texto principal (carvão escuro)
+    fontFamily: 'Arial, sans-serif', // Uma fonte limpa
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: '100vh', // Ocupa a tela inteira
+    textAlign: 'center',
+    padding: '20px',
+  };
+
+  const logoStyle = {
+    fontSize: '2.5rem', // Tamanho grande para o nome
+    fontWeight: 'bold',
+    color: '#000000', // Preto, como o logo
+    margin: '0 0 10px 0',
+  };
+
+  const textStyle = {
+    fontSize: '1.2rem',
+    color: '#555555', // Um cinza médio para o subtítulo
+    margin: '0',
+  };
+
   // Todo o conteúdo da sua página fica dentro do 'return ()'
   return (
-    <div>
-      <h1>Bem-vindo à Minha Nova Páginaaaaaa!</h1>
-      <p>
-        Este é o meu primeiro site usando React. Eu editei direto no GitHub!
+    <div style={pageStyle}>
+      <h1 style={logoStyle}>Clínica Slim Medicine</h1>
+      <p style={textStyle}>
+        Nossa nova página estará no ar em alguns dias.
       </p>
-
-      <h2>Meus Links Favoritos</h2>
-      <ul>
-        <li><a href="[https://google.com](https://google.com)">Google</a></li>
-        <li><a href="[https://youtube.com](https://youtube.com)">YouTube</a></li>
-      </ul>
-
-      <img
-        src="[https://placehold.co/600x300/EEE/31343C?text=Minha+Imagem+Aqui](https://placehold.co/600x300/EEE/31343C?text=Minha+Imagem+Aqui)"
-        alt="Um placeholder de imagem"
-        style={{ marginTop: '20px', maxWidth: '100%' }}
-      />
     </div>
   )
 }
 
 export default App
+
+
