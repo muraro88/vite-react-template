@@ -7,7 +7,7 @@ function App() {
   // Todo o conteúdo da sua página fica dentro do 'return ()'
   return (
     <div>
-      <h1>Bem-vindo à Minha Nova Página!</h1>
+      <h1>Bem-vindo à Minha Nova Páginaaaaaa!</h1>
       <p>
         Este é o meu primeiro site usando React. Eu editei direto no GitHub!
       </p>
