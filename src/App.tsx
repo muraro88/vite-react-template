@@ -59,7 +59,7 @@ function App() {
       {/* 1. O LOGO */}
       {/* Certifique-se que 'src' é o nome exato do arquivo na pasta 'public' */}
       <img 
-        src="/logo-slim-medicine.png" 
+        src="/logo-slim-medicine.jpg" 
         alt="Logo Clínica Slim Medicine" 
         style={logoImageStyle} 
       />
