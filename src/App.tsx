@@ -40,7 +40,7 @@ function App() {
     <div style={pageStyle}>
       {/* Aqui usamos a tag <img> para adicionar o logo */}
       {/* Certifique-se que o 'src' corresponde ao nome do seu arquivo de imagem na pasta 'public' */}
-      <img src="/logo-slim-medicine.png" alt="Logo Clínica Slim Medicine" style={logoImageStyle} />
+      <img src="/logo-slim-medicine.jpg" alt="Logo Clínica Slim Medicine" style={logoImageStyle} />
       <h1 style={titleStyle}>Clínica Slim Medicine</h1>
       <p style={textStyle}>
         Nossa nova página estará no ar em alguns dias.
