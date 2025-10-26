@@ -4,31 +4,26 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  // Todo o conteúdo da sua página fica dentro do 'return ()'
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+    <div>
+      <h1>Bem-vindo à Minha Nova Página!</h1>
+      <p>
+        Este é o meu primeiro site usando React. Eu editei direto no GitHub!
       </p>
-    </>
+
+      <h2>Meus Links Favoritos</h2>
+      <ul>
+        <li><a href="[https://google.com](https://google.com)">Google</a></li>
+        <li><a href="[https://youtube.com](https://youtube.com)">YouTube</a></li>
+      </ul>
+
+      <img
+        src="[https://placehold.co/600x300/EEE/31343C?text=Minha+Imagem+Aqui](https://placehold.co/600x300/EEE/31343C?text=Minha+Imagem+Aqui)"
+        alt="Um placeholder de imagem"
+        style={{ marginTop: '20px', maxWidth: '100%' }}
+      />
+    </div>
   )
 }
 
